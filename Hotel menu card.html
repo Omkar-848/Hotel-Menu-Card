@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotel Menu Card</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f8f8;
+    }
+
+    .menu-container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .menu-title {
+      text-align: center;
+      color: #b51616;
+      font-size: 28px;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #e0e0e0;
+      padding-bottom: 10px;
+    }
+
+    .menu-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px;
+      border-bottom: 1px solid #e0e0e0;
+    }
+
+    .menu-item:last-child {
+      border-bottom: none;
+    }
+
+    .menu-item h3 {
+      font-size: 20px;
+      color: #333;
+      margin: 0;
+    }
+
+    .menu-item p {
+      font-size: 14px;
+      color: #777;
+      margin: 5px 0 0;
+    }
+
+    .menu-price {
+      font-size: 18px;
+      color: #ff006f;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="menu-container">
+    <h1 class="menu-title">Hotel Menu</h1>
+
+    <div class="menu-item">
+      <div>
+        <h3>Grilled Chicken Salad</h3>
+        <p>Fresh greens, grilled chicken, and house dressing.</p>
+      </div>
+      <span class="menu-price">$12.99</span>
+    </div>
+
+    <div class="menu-item">
+      <div>
+        <h3>Margherita Pizza</h3>
+        <p>Classic Italian pizza with fresh basil and mozzarella.</p>
+      </div>
+      <span class="menu-price">$9.99</span>
+    </div>
+
+    <div class="menu-item">
+      <div>
+        <h3>Spaghetti Carbonara</h3>
+        <p>Rich and creamy pasta with bacon and parmesan cheese.</p>
+      </div>
+      <span class="menu-price">$11.99</span>
+    </div>
+
+    <div class="menu-item">
+      <div>
+        <h3>Chocolate Lava Cake</h3>
+        <p>Warm chocolate cake with a molten center.</p>
+      </div>
+      <span class="menu-price">$6.99</span>
+    </div>
+  </div>
+</body>
+</html>
